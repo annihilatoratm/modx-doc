@@ -12,26 +12,26 @@
 
 ## 2. Plugin Installation  
 
-1. Connect via FTP to the server and place the folder “mspPaynetEasy” with the plugin in the root folder of the site. For package information go to the [web-site](https://website.com/mspPaynetEasy/_build/build.transport.php) and start plugin installation.  
-2. Navigate to Settings:  
+2.1. Connect via FTP to the server and place the folder “mspPaynetEasy” with the plugin in the root folder of the site. For package information go to the [web-site](https://website.com/mspPaynetEasy/_build/build.transport.php) and start plugin installation.  
+2.2. Navigate to Settings:  
    * Packages -> miniShop2 -> Settings.  
-3. Go to the _Payment Methods_ tab.  
-4. For the created _PaynetEasy Payment_ payment method select the action _Change_.  
-5. Go to the _Delivery options_ tab and enable the available options for this payment system.  
-6. Navigate to System Settings:  
+2.3. Go to the _Payment Methods_ tab.  
+2.4. For the created _PaynetEasy Payment_ payment method select the action _Change_.  
+2.5. Go to the _Delivery options_ tab and enable the available options for this payment system.  
+2.6. Navigate to System Settings:  
    * Packages -> miniShop2 -> System Settings.  
-7. In the key search field, specify **paynet** and press **Enter**.  
-8. In the _Value_ column, click twice on the desired parameter and open the input field. Fill in all plugin settings.  
-9. Redirection configuration:  
+2.7. In the key search field, specify **paynet** and press **Enter**.  
+2.8. In the _Value_ column, click twice on the desired parameter and open the input field. Fill in all plugin settings.  
+2.9. Redirection configuration:  
    * After checkout, enter page id for _Successful payment page_ and for _Unsuccessful payment page_.  
-10. If the payment method does not appear in the cart, check if the _payment method_ is enabled on the settings page.  
+2.10. If the payment method does not appear in the cart, check if the _payment method_ is enabled on the settings page.  
 
 ## 3. Plugin Uninstallation
 
-1. Navigate to Settings:  
+3.1. Navigate to Settings:  
    * Packages -> miniShop2 -> Settings.  
-2. Find _PaynetEasy_ and select the **Delete** action.  
-3. Go to the server and delete the folder _mspPaynetEasy_ from the root folder of the site:  
+3.2. Find _PaynetEasy_ and select the **Delete** action.  
+3.3. Go to the server and delete the folder _mspPaynetEasy_ from the root folder of the site:  
    * Delete the file on the server “payneteasy.class.php” at site_folder/core/components/minishop2/custom/payment/  
    * Delete the file on the “payneteasy.php” server at the address site_folder/assets/components/minishop2/payment/  
    * Delete the file on the server “payneteasy-setting-fields.combo.js” at site_folder/assets/components/csf/js/mgr  
