@@ -1,8 +1,8 @@
 # PaynetEasy Payment Plugin for Modx 2.8.7
 
-# 1. [Requirements](https://github.com/annihilatoratm/joomla-doc/blob/main/documentation/doc-eng.md#requirements)  
-# 2. [Plugin Installation](https://github.com/annihilatoratm/joomla-doc/blob/main/documentation/doc-eng.md#plugin-installation)  
-# 3. [Plugin Uninstallation](https://github.com/annihilatoratm/joomla-doc/blob/main/documentation/doc-eng.md#plugin-uninstallation)  
+# 1. [Requirements](https://github.com/annihilatoratm/modx-doc/blob/main/documentation/modx-eng.md#1-requirements-1) 
+# 2. [Plugin Installation](https://github.com/annihilatoratm/modx-doc/blob/main/documentation/modx-eng.md#2-plugin-installation-1)
+# 3. [Plugin Uninstallation](https://github.com/annihilatoratm/modx-doc/blob/main/documentation/modx-eng.md#3-plugin-uninstallation-1)
 
 ## 1. Requirements
 
